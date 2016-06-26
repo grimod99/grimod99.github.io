@@ -5,16 +5,16 @@ html, body {
     height: 100%;
     background-image: url("10.jpg");
     background-size: cover; }
-    
+
 
 h1 {
     font-size: 48px;
-    color: red;
+    color: blue;
     text-align: center;
 
 }
 
 p {
     max-width: 65%;
-    color: #d3d3d3;
+    color: #black;
 }
