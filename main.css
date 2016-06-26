@@ -17,4 +17,11 @@ h1 {
 p {
     max-width: 65%;
     color: #black;
+    font-size: 1.25rem;
+}
+
+.banner {
+
+  font-size: 3rem;
+
 }
