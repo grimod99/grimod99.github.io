@@ -1,62 +1,25 @@
-html, body {
-    font-family: sans-serif;
-    margin: 50;
-    width: 100%;
-    height: 100%;
-    background-image: url("10.jpg");
-    background-size: cover; }
+.red {
 
+  background-color: red;
 
-h1 {
-    font-size: 48px;
-    color: blue;
-    text-align: center;
+  }
+.blue {
 
-}
-
-p {
-    max-width: 65%;
-    color: #black;
-    font-size: 1.25rem;
-}
-
-.banner {
-  background-color: orange;
-  font-size: 3rem;
-
-}
-
-/*questo è un commento
-multilinea */
-
-.bordino {
-
-    border: 20px dotted purple;
-    /*faccio dei test con il box model
-    solo il border è visualizzabile , padding e margin sono solo spazi
-    */
-    padding: 20px;
-    margin: 80px 20px; /*TOP-BOTTOM right-left*/
-    margin: 80px 0 60px 20px; /*top right-bottom left*/
-    margin-top: -30px;
-    margin-right: 0;
-    margin-bottom: 60px;
-    margin-left: 20px;
-    width: 400px;
-    height: 200px;
-    background-color: pink;
-}
-
-.blu {
-    /*faccio dei test con il box model
-    solo il border è visualizzabile , padding e margin sono solo spazi
-    */
     background-color: blue;
-    height: 50px;
-    margin: 30px 0;
-    border-bottom: 25px dashed red;
-    color: #fff; /*se i valori sono uguali posso scriverne solo 3 */
-}
 
-li {display: inline;
+    }
+
+.yellow {
+
+      background-color: yellow;
+
+      }
+.green {
+
+        background-color: green;
+
+        }
+.row div {
+
+  min-height: 60px;
 }
